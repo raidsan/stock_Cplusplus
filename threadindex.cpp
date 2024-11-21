@@ -1,4 +1,4 @@
-
+#include "globalvar.h"
 #include "threadindex.h"
 
 ThreadIndex::ThreadIndex(QObject *parent)

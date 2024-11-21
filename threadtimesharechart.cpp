@@ -1,4 +1,4 @@
-
+#include "globalvar.h"
 #include "threadtimesharechart.h"
 
 ThreadTimeShareChart::ThreadTimeShareChart(QObject *parent)

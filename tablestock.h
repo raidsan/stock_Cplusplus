@@ -5,9 +5,10 @@
 #include <modeltablestock.h>
 #include <QAbstractItemView>
 #include <QScrollBar>
+#include <QStandardItemModel>
 #include "modelfundflow.h"
 #include "modeltimeshare.h"
-#include <QStandardItemModel>
+
 #include "commondelegate.h"
 #include "qheaderview.h"
 #include "globalvar.h"

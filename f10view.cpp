@@ -1,4 +1,5 @@
-
+#include <QHeaderView>
+#include "commondelegate.h"
 #include "f10view.h"
 
 F10View::F10View()

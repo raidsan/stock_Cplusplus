@@ -1,4 +1,4 @@
-
+#include "globalvar.h"
 #include "threadcandlechart.h"
 
 ThreadCandleChart::ThreadCandleChart(QObject *parent)

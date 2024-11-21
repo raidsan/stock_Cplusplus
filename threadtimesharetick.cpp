@@ -1,4 +1,4 @@
-
+#include "globalvar.h"
 #include "threadtimesharetick.h"
 
 ThreadTimeShareTick::ThreadTimeShareTick(QObject *parent)

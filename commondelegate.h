@@ -4,8 +4,6 @@
 
 #include <QStyledItemDelegate>
 
-
-
 class CommonDelegate : public QStyledItemDelegate
 {
 public:

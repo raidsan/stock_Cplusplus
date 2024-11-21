@@ -2,8 +2,7 @@
 #define MODELFUNDFLOW_H
 
 #include <QAbstractTableModel>
-#include "globalvar.h"
-#include "qfont.h"
+#include <QFont>
 
 class ModelFundFlow : public QAbstractTableModel
 {

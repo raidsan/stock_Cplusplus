@@ -1,4 +1,4 @@
-
+#include "globalvar.h"
 #include "getf10info.h"
 
 GetF10Info::GetF10Info(QObject *parent)

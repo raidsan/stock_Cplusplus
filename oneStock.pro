@@ -69,8 +69,10 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 RESOURCES += \
     resources.qrc
 
-INCLUDEPATH += d:\workstation\python\include
-LIBS += -Ld:\workstation\python\libs -lpython312
+PYTHONHOME=$$(PYTHONHOME)\envs\py39
+message(PYTHONHOME is: $$PYTHONHOME)
+INCLUDEPATH += $$PYTHONHOME\include
+LIBS += -L$$PYTHONHOME\libs -lpython39
 
 DISTFILES += \
     qmt.py

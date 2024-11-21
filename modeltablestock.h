@@ -2,10 +2,9 @@
 #ifndef MODELTABLESTOCK_H
 #define MODELTABLESTOCK_H
 
+#include <QFont>
 #include <QAbstractTableModel>
 #include "stockinfo.h"
-#include "globalvar.h"
-#include "qfont.h"
 
 class ModelTableStock : public QAbstractTableModel
 {

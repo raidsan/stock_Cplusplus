@@ -1,3 +1,4 @@
+#include "globalvar.h"
 #include "jspickstock.h"
 
 JSPickStock::JSPickStock(QDialog *parent)

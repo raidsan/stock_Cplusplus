@@ -1,4 +1,4 @@
-
+#include "globalvar.h"
 #include "threadnewsreport.h"
 
 ThreadNewsReport::ThreadNewsReport(QObject *parent)

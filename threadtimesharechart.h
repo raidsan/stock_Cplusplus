@@ -2,7 +2,7 @@
 #ifndef THREADTIMESHARECHART_H
 #define THREADTIMESHARECHART_H
 
-#include "globalvar.h"
+#include <QNetworkReply>
 
 class ThreadTimeShareChart : public QObject
 {

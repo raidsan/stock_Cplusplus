@@ -1,4 +1,7 @@
-
+#include <QHBoxLayout>
+#include <QPushButton>
+#include <QTextCodec>
+#include "globalvar.h"
 #include "drawchart.h"
 
 DrawChart::DrawChart(QWidget *parent)

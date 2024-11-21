@@ -2,7 +2,6 @@
 #ifndef THREADTABLE_H
 #define THREADTABLE_H
 
-#include "globalvar.h"
 #include <QFile>
 #include <QTextCodec>
 

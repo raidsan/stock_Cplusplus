@@ -1,4 +1,4 @@
-
+#include "globalvar.h"
 #include "threadtable.h"
 
 ThreadTable::ThreadTable(QObject *parent)

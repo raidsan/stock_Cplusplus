@@ -2,23 +2,9 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
-#include "qheaderview.h"
-#include "qspinbox.h"
-#include "stockinfo.h"
-#include "jspickstock.h"
-#include "qgridlayout.h"
-#include "tablestock.h"
-#include "threadtable.h"
-#include "threadindex.h"
-#include "threadnewsreport.h"
-#include "threadtimesharetick.h"
-#include "threadtimesharechart.h"
-#include "threadcandlechart.h"
-#include "drawchart.h"
-#include "searchstock.h"
-#include "requeststocsv.h"
-#include "f10view.h"
-#include "fundflow.h"
+#include <QHeaderView>
+#include <QSpinBox>
+#include <QGridLayout>
 #include <QTimer>
 #include <QThread>
 #include <QLabel>
@@ -38,6 +24,20 @@
 #undef slots
 #include <Python.h>
 #define slots Q_SLOTS
+
+#include "jspickstock.h"
+#include "tablestock.h"
+#include "threadtable.h"
+#include "threadindex.h"
+#include "threadnewsreport.h"
+#include "threadtimesharetick.h"
+#include "threadtimesharechart.h"
+#include "threadcandlechart.h"
+#include "drawchart.h"
+#include "searchstock.h"
+#include "requeststocsv.h"
+#include "f10view.h"
+#include "fundflow.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }

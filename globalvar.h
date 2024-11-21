@@ -5,7 +5,6 @@
 #include <QDateTime>
 #include <QTimeZone>
 #include <QSettings>
-#include "stockinfo.h"
 #include <QPalette>
 #include <QNetworkAccessManager>
 #include <QNetworkRequest>
@@ -17,6 +16,7 @@
 #include <QEventLoop>
 #include <QTimer>
 #include <QCoreApplication>
+#include "stockinfo.h"
 
 class GlobalVar
 {

@@ -2,19 +2,14 @@
 #ifndef DRAWCHART_H
 #define DRAWCHART_H
 
-#include "qdialog.h"
-#include "qlabel.h"
-#include "qtextbrowser.h"
+#include <QDialog>
+#include <QLabel>
+#include <QTextBrowser>
 #include <QWidget>
 #include <QPainter>
 #include <QMouseEvent>
 #include <QListView>
 #include <QStringListModel>
-#include "globalvar.h"
-#include "qboxlayout.h"
-#include "qpushbutton.h"
-#include "qtextcodec.h"
-
 
 class DrawChart : public QWidget
 {

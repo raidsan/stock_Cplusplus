@@ -2,7 +2,7 @@
 #ifndef FUNDFLOW_H
 #define FUNDFLOW_H
 
-#include "qlabel.h"
+#include <QLabel>
 #include <QTableView>
 #include <QStandardItemModel>
 //#include <QNetworkAccessManager>
@@ -14,9 +14,7 @@
 #include <QNetworkCookie>
 #include <QDialog>
 #include <QPainter>
-#include <complex>
 #include <QCheckBox>
-#include "globalvar.h"
 
 class FundFlow : public QTableView
 {
